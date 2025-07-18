@@ -1,46 +1,42 @@
-# Daily-Journaling-Application
-This is a Java Swing-based desktop application that allows users to write, save, and manage daily journal entries. The project demonstrates core concepts of Java GUI programming, file handling, and user experience design.
+# 📝 Daily Journaling Application – Java Swing Desktop App
 
-🎯 Features
+### Created by **Partha Sarathi Basu**
 
-🖥️ Welcome Splash Screen
+---
 
-📝 Write and Save Notes
+## 📌 Overview
 
-Saves daily notes to a date-named text file (Notes_dd-MMM-yyyy.txt)
+This is a **Java Swing-based desktop application** for writing and saving daily journal entries. It combines simplicity with powerful Java features like custom UI, file handling, event-driven programming, and more.
 
-📂 Open Existing Notes
+---
 
-Open today's file or browse and open any .txt file
+## 🎯 Features
 
-🔁 Clear Editor
+- 💬 Welcome splash screen
+- 📝 Text area with placeholder and line wrap
+- 💾 Save today's note to `Notes_dd-MMM-yyyy.txt`
+- 📂 Open today's note or select any `.txt` file
+- 🔁 Clear editor anytime
+- ❌ Exit confirmation dialog
+- 🎨 Dynamic button panel background
+- ✨ Highlighted caret and custom focus styling
 
-Reset the editor for new input
+---
 
-❌ Exit with Confirmation
+## 💻 Technologies Used
 
-🎨 Colorful, Dynamic Interface
+- Java SE
+- Swing and AWT
+- File I/O (BufferedReader, BufferedWriter)
+- Event Handling (ActionListener, FocusListener)
+- `JFileChooser`, `JOptionPane`, `JWindow`
 
-Random background color on every launch
+---
 
-🔍 User-Friendly UI
+## 🚀 Getting Started
 
-Placeholder hint text
-
-Caret color and focus borders
-
-📁 Auto Folder Creation
-
-Ensures data directory exists
-
-💻 Technologies Used
-
-Java SE
-
-Swing & AWT
-
-File I/O (BufferedReader, BufferedWriter)
-
-Event Listeners (ActionListener, FocusListener)
-Timers and Background Threads (SwingWorker)
-JFileChooser, JOptionPane, JWindow
+1. Clone or download the project.
+2. Compile and run using:
+   ```bash
+   javac GuiDemo5.java
+   java GuiDemo5
